@@ -5,7 +5,9 @@ description = "Hands-on notes and code from a Datacamp's LangChain course on bui
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "gradio>=6.27.0",
     "langchain>=1.3.18",
+    "langchain-anthropic>=1.7.2",
     "langchain-openai>=1.6.0",
     "python-dotenv>=1.2.3",
 ]
